@@ -1,0 +1,150 @@
+/* RESET */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f8f9fc;
+}
+
+/* HEADER */
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(#d6eefa, #e6e5e506);
+  position: relative;
+}
+
+.hero-logo {
+  height: 50px;
+}
+
+.hero-phone {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+.hero-admin {
+  background-color: #4a47f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+/* MAIN */
+.hero-main {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.hero-main h1 {
+  font-size: 30px;
+  color: #1f1f1f;
+  margin-bottom: 5px;
+}
+
+.hero-main h1 span {
+  color: #1f1f8b;
+}
+
+.subtext {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background-color: #4a47f6;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.hero-btn:hover {
+  background-color: #3331da;
+}
+
+.hero-illustration {
+  width: 200px;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+/* ETAPAS */
+.steps-new {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.step-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 220px;
+  text-align: center;
+}
+
+.step-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.step-box h3 {
+  margin-bottom: 6px;
+  color: #2e2e2e;
+}
+
+.step-box p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* POR QUE VOLTZ */
+.why-voltz-new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  background-color: #eef3fc;
+}
+
+.why-voltz-new h2 {
+  color: #1f1f8b;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.why-voltz-new p {
+  font-size: 16px;
+  color: #555;
+  max-width: 400px;
+}
+
+.voltz-graph {
+  width: 120px;
+}
+
+/* FOOTER */
+.hero-footer {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
